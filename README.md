@@ -19,12 +19,30 @@ To automate the creation of joint savings accounts, you’ll create a Solidity s
 
 Complete the coding and compiling the provided solidity file using Remix IDE.
 
+<img width="363" alt="image" src="https://user-images.githubusercontent.com/56103714/162554334-a5518797-8a3c-4ff0-b234-670820acbbc2.png">
 
 
 *Step-2*
 
 Compile and deploy the contract using JavaScriptVM
 
+<img width="363" alt="image" src="https://user-images.githubusercontent.com/56103714/162554345-f04e5145-f104-4a49-894c-9ab6eea59491.png">
+
+
 *Step-3*
 
 Create an interaction with the deployed smart contract  
+
+<img width="360" alt="image" src="https://user-images.githubusercontent.com/56103714/162554357-fd84f11b-c015-4ebc-a899-8466866fe54c.png">
+
+- Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
+- Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract:
+-Transaction 1: Send 1 ether as wei.
+-Transaction 2: Send 10 ether as wei.
+-Transaction 3: Send 5 ether.
+
+>Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
+
+
+
+
