@@ -37,9 +37,12 @@ Create an interaction with the deployed smart contract
 
 - Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
 - Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract:
+
 -Transaction 1: Send 1 ether as wei.
 -Transaction 2: Send 10 ether as wei.
 -Transaction 3: Send 5 ether.
+
+<img width="359" alt="image" src="https://user-images.githubusercontent.com/56103714/162883708-87ef7914-ec3e-4d9c-a2cb-ca9581553ea3.png">
 
 >Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. Also, use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
 
